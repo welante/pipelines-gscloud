@@ -1,0 +1,5 @@
+projects:
+- name: "default"
+  userId: ""
+  token: ""
+  url: https://api.gridscale.io
