@@ -25,7 +25,15 @@ docker run --rm -it \
 optionally you can set GRIDSCALE_PROJECT
 
 ### Publish the image to docker.hub
-`docker build -t welante/pipelines-gscloud:v0.13.0 --build-arg="KUBE_VERSION=1.28.1" --build-arg="GSCLOUD_VERSION=0.13.0" .`
-`docker tag welante/pipelines-gscloud:v0.13.0 welante/pipelines-gscloud:latest`
-`docker push welante/pipelines-gscloud:v0.13.0`
-`docker push welante/pipelines-gscloud:lastest`
+`docker build -t welante/pipelines-gscloud:v0.13.1 --build-arg="KUBE_VERSION=1.28.1" --build-arg="GSCLOUD_VERSION=0.13.0" .`
+`docker tag welante/pipelines-gscloud:v0.13.1 welante/pipelines-gscloud:latest`
+`docker push welante/pipelines-gscloud:v0.13.1`
+`docker push welante/pipelines-gscloud:latest`
+
+## Versions
+
+### v0.13.1 ###
+added helm
+
+### v0.13.0 ###
+first version with kubectl
